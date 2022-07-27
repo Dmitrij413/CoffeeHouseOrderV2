@@ -80,5 +80,5 @@ btn.addEventListener("click", function (){
   userSurname.value === "" ? alert("Введите фамилию!") :
     userName.value === "" ? alert("Введите имя!") :
       resultElem.textContent < 1 ? alert("Выберете товар!") :
-        alert(`Заказчик: ${userSurname.value} ${userName.value}\nИтого: ${resultElem.textContent}`);
+        alert(`Заказчик: ${userSurname.value} ${userName.value}\nИтого: ${resultElem.textContent} р.`);
 })
